@@ -1,10 +1,12 @@
-<!doctype html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>Home</title>
-  </head>
-  <body>
-    <h1>Hello World!</h1>
-  </body>
-</html>
+---
+layout: default
+---
+
+<section class="posts">
+<ul>
+{% for post in site.posts %}
+<li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%m-%d-%Y" }}</time></li>
+{% endfor %}
+</ul>
+</section>
+
