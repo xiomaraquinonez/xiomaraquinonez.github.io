@@ -1,7 +1,7 @@
 # Site
 name: "XiomarasBlog"
 title: "XiomarasBlog"
-description: "Jekyll template, Medium styled, for BlogTrial."
+description: "Blog for recording my projects during my internship at Cape Analytics."
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/logo.png'
 baseurl: ''
